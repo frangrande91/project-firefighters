@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Entity
+@Table(name = "persons")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public abstract class Person {
 
